@@ -24,43 +24,30 @@
 % personal data
 \firstname{Hiroki}
 \familyname{Tanabe}
-\title{PhD in Computer Science / YouTuber}
+\title{Data Scientist / PhD in Computer Science / YouTuber}
 \IfFileExists{.personal_data.tex}{
 \input{.personal_data.tex}
 }{
 \input{.personal_data_sample.tex}
 }
 \email{tanabe.hiroki.45n@kyoto-u.jp}
-\homepage{zalgo-official.com/en/curriculum-vitae}
 \social[linkedin]{hiroki-tanabe}
 \social[twitter]{zalgo3}
 \social[github]{zalgo3}
 
 \begin{document}
 \maketitle
-\section{Skills Summary}
-\subsection{Technical}
-\cvcomputer{Operations Research}{Multiobjective optimization, continuous optimization, convex optimization, non-convex optimization, nonsmooth optimization, nonlinear optimization, first-order methods, proximal methods, descent methods, merit functions}{Machine Learning}{Sparse modelling, Image processing, Python, Jupyter, scikit-learn, scikit-image, OpenCV, Numpy, SciPy, Matplotlib, seaborn, Pandas}
-\vspace{-2em}
-\cvcomputer{}{}{Other Technologies}{\LaTeX, Vim, Git, Docker, Ruby on Rails, GitHub Actions}
-
-\subsection{Language}
-\cvcomputer{English}{Professional working proficiency}{Japanese}{Native or bilingual proficiency}
-
-
-\section{Education~\footnotemark}
-\cventry{\dates[10.2019-09.2022]}{PhD, Computer Science}{Kyoto University}{Kyoto, Japan}{}{}
-\cventry{\dates[04.2018-09.2019]}{MSc, Computer Science}{Kyoto University}{Kyoto, Japan}{Valedictorian, early degree completion}{}
-\cventry{\dates[04.2014-03.2018]}{BSc, Computer Science}{Kyoto University}{Kyoto, Japan}{Valedictorian}{}
-\footnotetext{In Japan, Doctorate Degree = Doctor of Philosophy (PhD) = Doctor of Science (D.Sc.), Master's Degree = Master of Science (MSc), Bachelor's Degree = Bachelor of Science (BSc), and Informatics = Information Science = Computer Science are often used interchangeably. For this reason, PhD, MSc, BSc, and Computer Science are used here as universal translations to reduce confusion.}
 
 \section{Experience}
-\cventry{\yearabove{\shortmonthname[4]}{2020}--Present}{Research Fellowship for Young Scientists (DC1)}{Japan Society for the Promotion of Science}{Tokyo, Japan}{}{
-Awarded to excellent PhD students, this fellowship allows the fellows to focus on a freely chosen research topic based on their innovative ideas. This program's recruitment phase has a very narrow selection process with a selection ratio of 20\%.\newline{}
-\textbf{Research subject}: Development, theoretical analysis, and implementation of multiobjective optimization algorithms, particularly first-order methods, i.e., methods that use only the first-order derivatives of the objective functions. They are useful in machine learning, statistics, signal and image processing.}
+\cventry{\yearabove{\shortmonthname[10]}{2022}--Present}{Data Scientist}{Yahoo Japan Corporation}{Osaka, Japan}{}{
+Responsible for the development of CVR prediction models for the display ads. Experienced data aggregation using Hive on a Hadoop cluster, development of machine learning models using Jupyter Notebook and Python, construction of DevOps and MLOps pipelines using CI/CD with Argoworkflow, Airflow, and Screwdriver, and A/B testing in the production environment.
+    }
 \cventry{\yearabove{\shortmonthname[2]}{2017}--Present}{YouTuber}{}{}{}{
     Manage two YouTube channels, the \httplink[Let's Play channel]{youtube.com/c/zalgo33} with 17,000 subscribers and the \httplink[Music Cover channel]{youtube.com/c/zalgosing} with 5,000 subscribers. \httplink[One Let's Play video]{youtube.com/watch?v=_h3crP83iNk} has more than 1 million views.
 }
+\cventry{\dates[04.2020-09.2022]}{Research Fellowship for Young Scientists (DC1)}{Japan Society for the Promotion of Science}{Tokyo, Japan}{}{
+Awarded to excellent PhD students with a selection ration of 20\%, this fellowship allows the fellows to focus on a freely chosen research topic based on their innovative ideas.\newline{}
+\textbf{Research subject}: Development, theoretical analysis, and implementation of multiobjective optimization algorithms, particularly first-order methods, i.e., methods that use only the first-order derivatives of the objective functions. They are useful in machine learning, statistics, signal and image processing.}
 \cventry{\dates[09.2020-09.2020]}{Software Engineering Internship}{VOYAGE Group Inc.}{Tokyo, Japan}{}{Developed a coding test tool in a four-person engineering team to improve efficiency in HR. Communicated with the HR staff and asked about their recruiting problems. Designed the prototype with Miro. Implemented authentication by Google account, uploading source codes, and grading each submission, using Vue.js and Firebase.}
 \cventry{\dates[08.2020-09.2020]}{Data Scientist Internship}{Yahoo Japan Corporation}{Osaka, Japan}{}{
 Estimated heterogeneous treatment effect on earnings of Yahoo! Japan Auction of a recommendation system by using Machine Learning with Python on Jupyter Notebook. Analyzed seven days of preprocessed traffic data of Yahoo! Japan Auction, including the click data of the recommendation banner, in Pandas DataFrame. Implemented X-Learner, a kind of algorithm called ``meta-learner,'' which estimates CATE (Conditional Average Treatment Effect) using any machine learning estimator. Used LightGBM and linear regression as the estimator of X-Learner. Prevented leakage through correlation analysis. Verified if the recommendation system impacts the earnings via Student's t-test and Cohen's d effect size. Note that estimating the treatment effect is strongly related to ``A/B testing.''
@@ -72,6 +59,25 @@ Built a new Ruby on Rails web application from scratch. It enables users to reco
     Designed and developed some machine learning models for the manufacturing and agricultural industry, mainly through analyzing a small number of image datasets, typically using Python. In particular, developed models for surface defect detection through various techniques, including dictionary learning and fused lasso and hyperspectral image segmentation via online dictionary learning and typical classification algorithms (e.g., support vector machine, random forest). Surveyed scientific papers and implemented algorithms from them, using some machine learning libraries (e.g., scikit-learn), image processing libraries (e.g., open-cv, scikit-image), data visualization libraries (e.g., matplotlib, seaborn), and notebooks environments (e.g., Jupyter).\newline{}
     \textbf{Other minor engagements included}: Added some new algorithms (e.g., alternating direction methods of multipliers for the generalized lasso, matching pursuit for sparse coding) to the open-source library ``\httplink[spm-image]{github.com/hacarus/spm-image},'' a scikit-learn compatible library of sparse modelling and compressive sensing. Implemented batch-OMP, an improved version of the orthogonal matching pursuit algorithm, to contribute to the research project from NEDO (the New Energy and Development Organization), the Japanese largest governmental R\&D organization. Developed front-end of an in-house web application that generates an interactive visualization of image datasets' quality, using flask, pandas, and bokeh.
 }
+
+\section{Education~\footnotemark}
+\cventry{\dates[10.2019-09.2022]}{PhD, Computer Science}{Kyoto University}{Kyoto, Japan}{}{}
+\cventry{\dates[04.2018-09.2019]}{MSc, Computer Science}{Kyoto University}{Kyoto, Japan}{Valedictorian, early degree completion}{}
+\cventry{\dates[04.2014-03.2018]}{BSc, Computer Science}{Kyoto University}{Kyoto, Japan}{Valedictorian}{}
+\footnotetext{In Japan, Doctorate Degree = Doctor of Philosophy (PhD) = Doctor of Science (D.Sc.), Master's Degree = Master of Science (MSc), Bachelor's Degree = Bachelor of Science (BSc), and Informatics = Information Science = Computer Science are often used interchangeably. For this reason, PhD, MSc, BSc, and Computer Science are used here as universal translations to reduce confusion.}
+
+\section{Skills Summary}
+\subsection{Technical}
+\cvcomputer{Industry Knowledge}{
+    Optimization, Machine Learning, Data Engineering, DevOps, MLOps
+}{Tools \& Technologies}{
+    Python, Apache Hive, Apache Hadoop, C++, Vim, \LaTeX, Git, Docker
+}
+
+\subsection{Language}
+\cvcomputer{English}{Professional working proficiency}{Japanese}{Native or bilingual proficiency}
+
+
 
 \section{Publications}
 \subsection{Papers}
