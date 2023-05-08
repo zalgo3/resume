@@ -39,18 +39,16 @@
 \maketitle
 
 \section{Experience}
-\cventry{\yearabove{\shortmonthname[10]}{2022}--Present}{Data Scientist}{Yahoo Japan Corporation}{Osaka, Japan}{}{
-Responsible for the development of CVR prediction models for the display ads. Experienced data aggregation using Hive on a Hadoop cluster, development of machine learning models using Jupyter Notebook and Python, construction of DevOps and MLOps pipelines using CI/CD with Argoworkflow, Airflow, and Screwdriver, and A/B testing in the production environment.
-    }
+\cventry{\yearabove{\shortmonthname[10]}{2022}--Present}{Data Scientist}{Yahoo Japan Corporation}{Osaka, Japan}{}{Responsible for the development of CVR (Conversion Rate) prediction models for the display ads, which is used for the automated bidding. Experienced data aggregation using Hive on a Hadoop cluster, development of machine learning models using Python (XGBoost, LightGBM), construction of DevOps and MLOps pipelines with Argo Workflows, Airflow, and Screwdriver.cd, and A/B testing in the production environment. All processes are performed on the AWS-like (such as S3) or GCP-like (such as Vertex AI) private cloud platform.}
 \cventry{\yearabove{\shortmonthname[2]}{2017}--Present}{YouTuber}{}{}{}{
-    Manage two YouTube channels, the \httplink[Let's Play channel]{youtube.com/c/zalgo33} with 17,000 subscribers and the \httplink[Music Cover channel]{youtube.com/c/zalgosing} with 5,000 subscribers. \httplink[One Let's Play video]{youtube.com/watch?v=_h3crP83iNk} has more than 1 million views.
+    Manage two YouTube channels, the \httplink[Gaming channel]{youtube.com/@zalgogame} with 16,100 subscribers / 7,063,000 total views and the \httplink[Music Cover channel]{youtube.com/@zalgosing} with 4,500 subscribers / 1,170,000 total views. \httplink[A speedrun video]{youtube.com/watch?v=_h3crP83iNk} has more than 1 million views. Also have a \httplink[virtual YouTuber channel]{youtube.com/@MonomousuYT} that is automated by a \emph{generative AI}, basically written in Python and uses the OpenAI API and the Azure Kubernetes Service.
 }
 \cventry{\dates[04.2020-09.2022]}{Research Fellowship for Young Scientists (DC1)}{Japan Society for the Promotion of Science}{Tokyo, Japan}{}{
 Awarded to excellent PhD students with a selection ration of 20\%, this fellowship allows the fellows to focus on a freely chosen research topic based on their innovative ideas.\newline{}
 \textbf{Research subject}: Development, theoretical analysis, and implementation of multiobjective optimization algorithms, particularly first-order methods, i.e., methods that use only the first-order derivatives of the objective functions. They are useful in machine learning, statistics, signal and image processing.}
 \cventry{\dates[09.2020-09.2020]}{Software Engineering Internship}{VOYAGE Group Inc.}{Tokyo, Japan}{}{Developed a coding test tool in a four-person engineering team to improve efficiency in HR. Communicated with the HR staff and asked about their recruiting problems. Designed the prototype with Miro. Implemented authentication by Google account, uploading source codes, and grading each submission, using Vue.js and Firebase.}
 \cventry{\dates[08.2020-09.2020]}{Data Scientist Internship}{Yahoo Japan Corporation}{Osaka, Japan}{}{
-Estimated heterogeneous treatment effect on earnings of Yahoo! Japan Auction of a recommendation system by using Machine Learning with Python on Jupyter Notebook. Analyzed seven days of preprocessed traffic data of Yahoo! Japan Auction, including the click data of the recommendation banner, in Pandas DataFrame. Implemented X-Learner, a kind of algorithm called ``meta-learner,'' which estimates CATE (Conditional Average Treatment Effect) using any machine learning estimator. Used LightGBM and linear regression as the estimator of X-Learner. Prevented leakage through correlation analysis. Verified if the recommendation system impacts the earnings via Student's t-test and Cohen's d effect size. Note that estimating the treatment effect is strongly related to ``A/B testing.''
+Estimated heterogeneous treatment effect on earnings of Yahoo! Japan Auction of a recommendation system by using Machine Learning with Python on Jupyter Notebook. Analyzed seven days of preprocessed traffic data of Yahoo! Japan Auction, including the click data of the recommendation banner, in Pandas DataFrame. Implemented X-Learner, a kind of algorithm called ``meta-learner,'' which estimates CATE (Conditional Average Treatment Effect) using any machine learning estimator. Used LightGBM and linear regression as the estimator of X-Learner. Prevented leakage through correlation analysis. Verified if the recommendation system impacts the earnings via Student's t-test and Cohen's d effect size. Note that such estamates of the treatment effect is useful when it is difficult to conduct A/B testing.
 }
 \cventry{\dates[08.2020-08.2020]}{Software Engineering Internship}{Cookpad Japan Inc.}{Tokyo, Japan}{}{
 Built a new Ruby on Rails web application from scratch. It enables users to record and rate recipes they have used. Using the Lean Startup Methodology, developed the MVP (Minimum Viable Product) that satisfies the value hypothesis and utilized a feedback loop through user testing. Presented a prototype of the product by using Figma. Implemented functions of recording recipes with title, memo, image, and rating, editing and destroying them, showing them in a grid view, and sorting them by rating and date, using Ruby on Rails, Docker, Boostrap.
@@ -69,9 +67,9 @@ Built a new Ruby on Rails web application from scratch. It enables users to reco
 \section{Skills Summary}
 \subsection{Technical}
 \cvcomputer{Industry Knowledge}{
-    Optimization, Machine Learning, Data Engineering, DevOps, MLOps
+    Optimization, Machine Learning, Data Engineering, DevOps, MLOps, Generative AI
 }{Tools \& Technologies}{
-    Python, Apache Hive, Apache Hadoop, C++, Vim, \LaTeX, Git, Docker
+    Python, TypeScript, Next.js, Vim, \LaTeX, Apache Hive, Apache Hadoop, GitHub Actions, Git, Docker, Kubernetes, OpenAI API, LangChain
 }
 
 \subsection{Language}
@@ -81,11 +79,11 @@ Built a new Ruby on Rails web application from scratch. It enables users to reco
 
 \section{Publications}
 \subsection{Papers}
-\cvlistitem{Hiroki Tanabe, Ellen H. Fukuda, and Nobuo Yamashita, Convergence rates analysis of a multiobjective proximal gradient method. \textit{Optimization Letters}, Online first, 2022. [\httplink[doi]{doi.org/10.1007/s11590-022-01877-7}, \httplink[pdf]{rdcu.be/cL1Kg}]}
+\cvlistitem{Hiroki Tanabe, Ellen H. Fukuda, and Nobuo Yamashita, Convergence rates analysis of a multiobjective proximal gradient method. \textit{Optimization Letters}, 17, pp.~333--350, 2023. [\httplink[doi]{doi.org/10.1007/s11590-022-01877-7}, \httplink[pdf]{rdcu.be/cL1Kg}]}
 \cvlistitem{Hiroki Tanabe, Ellen H. Fukuda, and Nobuo Yamashita, Proximal gradient methods for multiobjective optimization and their applications, \textit{Computational Optimization and Applications}, 72(2), pp.~339--361, 2019. [\httplink[doi]{doi.org/10.1007/s10589-018-0043-x}, \httplink[pdf]{rdcu.be/bav7Q}]}
+\cvlistitem{Hiroki Tanabe, Ellen H. Fukuda, and Nobuo Yamashita, New merit functions for multiobjective optimization and their properties. \textit{Submitted}, 2023. [\httplink[pdf]{arxiv.org/abs/2010.09333}]}
+\cvlistitem{Hiroki Tanabe, Ellen H. Fukuda, and Nobuo Yamashita, An accelerated proximal gradient method for multiobjective optimization. \textit{Submitted}, 2023. [\httplink[pdf]{arxiv.org/abs/2202.10994}]}
 \cvlistitem{Hiroki Tanabe, Ellen H. Fukuda, and Nobuo Yamashita, A globally convergent fast iterative shrinkage-thresholding algorithm with a new momentum factor for single and multi-objective convex optimization. \textit{Submitted}, 2022. [\httplink[pdf]{arxiv.org/abs/2205.05262}]}
-\cvlistitem{Hiroki Tanabe, Ellen H. Fukuda, and Nobuo Yamashita, New merit functions for multiobjective optimization and their properties. \textit{Submitted}, 2022. [\httplink[pdf]{arxiv.org/abs/2010.09333}]}
-\cvlistitem{Hiroki Tanabe, Ellen H. Fukuda, and Nobuo Yamashita, An accelerated proximal gradient method for multiobjective optimization. \textit{Submitted}, 2022. [\httplink[pdf]{arxiv.org/abs/2202.10994}]}
 
 \subsection{Books}
 \cvlistitem{Takashi Someda, Naoki Kitora, Ippei Usami, Ryuji Masui, and Hiroki Tanabe, An Introduction to Sparse Modeling for IT Engineers (in Japanese), Shoeisha, 2021.}
